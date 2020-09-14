@@ -1,0 +1,172 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+.navbar-custom{
+    background-color: rgb(22, 22, 22);
+}
+
+.section{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 180px;
+    color: #ffffff;
+}
+
+.section h3{
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section p{
+    padding: 15px;
+    border: 1px solid whitesmoke;
+}
+
+.who-we-are{
+    color: whitesmoke;
+    padding: 100px 50px 100px 50px;
+}
+
+.who-we-are h3{
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.who-we-are p{
+    text-align: center;
+    padding: 0 90px 0 90px;
+}
+
+#our-services{
+    /* background:#784BA0; */
+    color: whitesmoke;
+    padding: 70px 180px 70px 180px;
+}
+
+#our-services p{
+    font-size: 45px;
+    text-align: center;
+}
+
+#our-services #our-services-p{
+    font-size: 20px;
+}
+
+.our-ser{
+    list-style-type: none;
+    border: 1px solid greenyellow;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.our-ser:hover{
+    color: yellowgreen;
+    transition: 0.2s ease-in;
+}
+
+.book-btn{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: greenyellow;
+    text-align: center;
+}
+
+.book-btn-a{
+    border: 1px solid white;
+    padding: 5px;
+    color: floralwhite;
+}
+
+.book-btn-a:hover{
+    text-decoration: none;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+}
+
+/* form*/
+#my-form{
+    color: whitesmoke;
+    padding:25px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+#my-form p{
+    font-size: 45px;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+}
+
+.input-box{
+    width: 450px;
+    border-radius: 3px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+input:focus{
+    border-color: darkviolet;
+    box-shadow: 0 0 8px 0 darkviolet;
+}
+
+textarea:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 darkviolet;
+}
+
+#submit{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#submit:hover{
+    background-color: deepskyblue;
+}
+/*  form*/
+footer{
+    margin-bottom: 0px;
+    background-color: black;
+    color: whitesmoke;
+}
+.footer-link{
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+}
+.scroll-up a{
+    background-color: rgb(46, 13, 56);
+    color: grey;
+    float: right;
+    padding: 0px 4px 0px 4px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.scroll-up a:hover{
+    text-decoration: none;
+    color: greenyellow;
+}
